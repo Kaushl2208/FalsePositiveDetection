@@ -12,8 +12,14 @@ This repository is intented to work towards building a first class False positiv
 
 ## Input file type and Expected changes:
 1. Input file should be `.csv` file characteristics: 
+
+
     a. "Copyright": That contains the copyright statements
+
+    
     b. "Manual Tag" (optional): If you want to calculate the accuracy over manual tagging.
+
+
 2. One flag should be provided `clutter_flag`, Which tells the script to remove the unwanted clutter from the TP copyright statements.
 
 ## Output File:
