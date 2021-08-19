@@ -16,7 +16,7 @@ This repository is intented to work towards building a first class False positiv
 
     a. "Copyright": That contains the copyright statements
 
-    
+
     b. "Manual Tag" (optional): If you want to calculate the accuracy over manual tagging.
 
 
@@ -24,15 +24,27 @@ This repository is intented to work towards building a first class False positiv
 
 ## Output File:
 1. The output file will be `updatedChanges.csv` containing:
+
+
     a. *"Hit&Miss"*:  which tells us about the algorithm's output, ***t*** for a true copyright statement and ***f*** for a false copyright statement.
+
+
     b. *"edited_text"* : if the `clutter_flag` was true, The updated text without clutter will be seen here.
+
+
 
 
 ## Miscellaneous
 1. You can also train the model over for your specific wordset/dataset/knowledge bag.
 2. Provide the dataset in the spacy input format and run the `model_train.py` script. 
+
+
     a. You can also tune in the number of epochs and even train your own model with name in `modelName` variable.
+
+
     b. Normally it will train the pre used `en_core_web_sm` model over the new training set and may result into more accuracy for specific set.
+
+    
  
 
 
